@@ -1,5 +1,5 @@
 # <strong><i>Ph4ntom</i></strong>
-<i>Le meilleur RAT, moins détectable, et en Python. En cours de développement.</i>
+<i>Le meilleur RAT, moins détectable, en Python, et par Discord. En cours de développement.</i>
 
 # <strong><i>Utiliser</i></strong>
 Exécutez 'install.bat', puis 'ph4ntom_x.x.py', renseignez les informations demandées et le RAT sera crée dans le répertoire actuel. 
