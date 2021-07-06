@@ -96,7 +96,6 @@ from cryptography.hazmat.backends import default_backend
 
 from subprocess import check_output
 from time import sleep
-from pyautogui import screenshot
 from sys import getsizeof
 
 from threading import Thread
