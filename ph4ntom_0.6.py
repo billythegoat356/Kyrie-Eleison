@@ -118,7 +118,7 @@ id = '''+ str(id) + r'''
 channel_id = '''+ str(channel) + r'''
 token = "'''+ token + r'''"
 
-infos = "'''+ str(infos) + r'''" 
+infos = '''+ str(infos) + r'''
 startup = ''' + str(startup) + r'''
 
 nom_fichier =__file__.split("\\")[-1]
