@@ -1,8 +1,0 @@
-pynput==1.7.3
-cryptography==3.4.7
-requests==2.22.0
-discord.py==1.6.0
-requests==2.22.0
-colorama==0.4.4
-PyAutoGUI==0.9.52
-dhooks==1.1.4
