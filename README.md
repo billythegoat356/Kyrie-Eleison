@@ -37,6 +37,8 @@ Kyrie Eleison provides you multiples functions that allows you to encrypt anythi
 </p>
 
 <br>
+<strong>- There is 0.05% chances for the encryption to don't work</strong>
+<br>
 <strong>- The length of the encrypted values are pretty random and long</strong>
 <br>
 <strong>- Not very strong encryption</strong>
@@ -49,6 +51,7 @@ Kyrie Eleison provides you multiples functions that allows you to encrypt anythi
 <p align="center"><strong>Feel free to make a pull request on this repository to submit any idea!</strong</p>
 
 <br><br>
+* For the encryption key, multiply it by another key in the text, so it will become harder to decrypt
 * Add more functions and encryption types
 * Add hashes
 <br><br>
