@@ -1,7 +1,7 @@
 -----
 
 <p align="center">
-<img src="https://repository-images.githubusercontent.com/401896390/ef22616c-c991-49c5-a7e5-fafbbd40a6b2", width="500", height="500">
+<img src="https://repository-images.githubusercontent.com/376834203/e6245a6f-e0be-4428-bf04-bfd8357866b7", width="500", height="500">
 </p>
 
 -----
@@ -33,7 +33,7 @@ Kyrie Eleison provides you multiples functions that allows you to encrypt anythi
 <br>
 
 <p align="right">
-<img src="https://repository-images.githubusercontent.com/401896390/ef22616c-c991-49c5-a7e5-fafbbd40a6b2" width="250", height="250">
+<img src="https://repository-images.githubusercontent.com/376834203/e6245a6f-e0be-4428-bf04-bfd8357866b7" width="250", height="250">
 </p>
 
 <br>
