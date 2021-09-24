@@ -27,9 +27,11 @@ Kyrie Eleison provides you multiples functions that allows you to encrypt anythi
 <br>
 <strong>+ Nobody will be able to crack your data</strong>
 <br>
-<strong>+ Very customizable functions</strong>
+<strong>+ Different crypted data every time (even with the same string)</strong>
 <br>
 <strong>+ Special and unique</strong>
+<br>
+<strong>+ Strong encryption</strong>
 <br>
 
 <p align="right">
@@ -37,11 +39,7 @@ Kyrie Eleison provides you multiples functions that allows you to encrypt anythi
 </p>
 
 <br>
-<strong>- There is 0.05% chances for the encryption to don't work</strong>
-<br>
-<strong>- The length of the encrypted values are pretty random and long</strong>
-<br>
-<strong>- Not very strong encryption</strong>
+<strong>- The length of the encrypted values are a bit long</strong>
 <br><br>
 
 -----
