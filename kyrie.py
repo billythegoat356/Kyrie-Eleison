@@ -3,15 +3,14 @@ from random import choice
 
 # by billythegoat356
 
-strings = "abcdefghijklmnopqrstuvwxyz0123456789" # ne pas changer svp
-base = 356 # ne pas changer svp
-
+strings = "abcdefghijklmnopqrstuvwxyz0123456789"  # ne pas changer svp
+base = 356  # ne pas changer svp
 
 
 class Kyrie():
 
     def encrypt(e: str):
-        e = Kyrie._ekyrie(e)    
+        e = Kyrie._ekyrie(e)
         return Kyrie._encrypt(e)
 
     def decrypt(e: str):
@@ -43,37 +42,15 @@ class Kyrie():
             key = base
         if type(key) == str:
             key = sum(ord(i) for i in key)
-        while True:
-            if key % 4 == 0:
-                break
-            key += 1
-        ran = 1
         t = [chr(ord(t)+key)if t != "\n" else "\n" for t in text]
-        return "".join(
-            "".join(choice(strings) for _ in range(ran)) + i
-            for i in t)
-
-
+        return "".join(t)
 
     def _decrypt(text: str, key: str = None):
         if key is None:
             key = base
         if type(key) == str:
             key = sum(ord(i) for i in key)
-        while True:
-            if key % 4 == 0:
-                break
-            key += 1
-        ran = 1
-        r = ""
-        while True:
-            if len(text) <= ran:
-                break
-            t = text[ran]
-            text = text[ran+1:]
-            r += chr(ord(t)-key) if t != "\n" else "\n"
-        return r
-
+        return "".join(chr(ord(t)-key) if t != "\n" else "\n" for t in text)
 
 
 class Key:
@@ -85,3 +62,18 @@ class Key:
     def decrypt(e: str, key: str):
         text = Kyrie._decrypt(e, key=key)
         return Kyrie._dkyrie(text)
+
+
+
+
+# text = "Kyrie Eleison"
+# key = strings
+
+# print("CRYPTER: " + Kyrie.decrypt(Kyrie.encrypt(text)) + " -> " + Kyrie.encrypt(text))
+
+# print("CHIFFRER: " + Key.decrypt(Key.encrypt(text, key=key), key=key) + " -> " + Key.encrypt(text, key=key))
+
+"""
+# CRYPTER: Kyrie Eleison -> ƯǜǕǌǈƄƩǏǈǌǖǒǑ
+# CHIFFRER: Kyrie Eleison -> ൷ඤඝඔඐൌ൱඗ඐඔඞක඙
+"""
