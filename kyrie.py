@@ -1,6 +1,3 @@
-from random import choice
-
-
 # by billythegoat356
 
 strings = "abcdefghijklmnopqrstuvwxyz0123456789"  # ne pas changer svp
@@ -30,7 +27,7 @@ class Kyrie():
         r = ""
         for a in text:
             if a in strings:
-                i = strings.index(a)
+                i = strings.index(a)+1
                 if i >= len(strings):
                     i = 0
                 a = strings[i]
@@ -64,13 +61,10 @@ class Key:
         return Kyrie._dkyrie(text)
 
 
-
-
 # text = "Kyrie Eleison"
 # key = strings
 
 # print("CRYPTER: " + Kyrie.decrypt(Kyrie.encrypt(text)) + " -> " + Kyrie.encrypt(text))
-
 # print("CHIFFRER: " + Key.decrypt(Key.encrypt(text, key=key), key=key) + " -> " + Key.encrypt(text, key=key))
 
 """
