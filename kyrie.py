@@ -30,7 +30,7 @@ class Kyrie():
         r = ""
         for a in text:
             if a in strings:
-                i = strings.index(a)+1
+                i = strings.index(a)
                 if i >= len(strings):
                     i = 0
                 a = strings[i]
