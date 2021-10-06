@@ -42,7 +42,7 @@ class Kyrie():
             key = base
         if type(key) == str:
             key = sum(ord(i) for i in key)
-        t = [chr(ord(t)+key)if t != "\n" else "\n" for t in text]
+        t = [chr(ord(t)+key)if t != "\n" else "ζ" for t in text]
         return "".join(t)
 
     def _decrypt(text: str, key: str = None):
@@ -50,7 +50,7 @@ class Kyrie():
             key = base
         if type(key) == str:
             key = sum(ord(i) for i in key)
-        return "".join(chr(ord(t)-key) if t != "\n" else "\n" for t in text)
+        return "".join(chr(ord(t)-key) if t != "ζ" else "\n" for t in text)
 
 
 class Key:
