@@ -20,6 +20,16 @@ Kyrie Eleison provides you multiples functions that allows you to encrypt anythi
 
 -----
 
+### <p align="center">📋 Examples 📋</p>
+
+<br><br>
+`Kyrie.encrypt("Kyrie Eleison")` -> `ƯǜǕǌǈƄƩǏǈǌǖǒǑ`
+<br><br>
+`Key.encrypt("Kyrie Eleison", key=3372)` -> `൷ඤඝඔඐൌ൱඗ඐඔඞක඙`
+<br>
+
+-----
+
 ### <p align="center">⭐ Features ⭐</p>
 
 <br><br>
