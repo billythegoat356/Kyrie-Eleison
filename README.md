@@ -50,6 +50,7 @@ Kyrie Eleison provides you multiples functions that allows you to encrypt anythi
 
 <br><br>
 * For the encryption key, multiply it by another key in the text, so it will become harder to decrypt
+* Replace the strings by the content off the file (so any char gets crypted) but remove the repeated chars
 * Add more functions and encryption types
 * Add hashes
 <br><br>
