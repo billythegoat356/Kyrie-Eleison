@@ -63,7 +63,7 @@ class Key:
 
 
 # text = "Kyrie Eleison"
-# key = strings
+# key = 3372
 
 # print("CRYPTER: " + Kyrie.decrypt(Kyrie.encrypt(text)) + " -> " + Kyrie.encrypt(text))
 # print("CHIFFRER: " + Key.decrypt(Key.encrypt(text, key=key), key=key) + " -> " + Key.encrypt(text, key=key))
