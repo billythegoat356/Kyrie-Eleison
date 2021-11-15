@@ -13,7 +13,9 @@
 <strong>
 The best and unique way to encrypt some data or a file safely,
 <br>
-Kyrie Eleison provides you multiples functions that allows you to encrypt anything you want.
+Kyrie Eleison provides you multiples functions that allows you to encrypt anything you want
+<br>
+using offset encryption in a more advanced way.
 </strong>
 </p>
 <br>
