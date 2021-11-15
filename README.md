@@ -37,13 +37,9 @@ using offset encryption in a more advanced way.
 <br><br>
 <strong>+ Fast</strong>
 <br>
-<strong>+ Nobody will be able to crack your data</strong>
-<br>
-<strong>+ Different crypted data every time (even with the same string)</strong>
-<br>
 <strong>+ Special and unique</strong>
 <br>
-<strong>+ Strong encryption</strong>
+<strong>+ Cool characters</strong>
 <br>
 
 <p align="right">
@@ -51,7 +47,9 @@ using offset encryption in a more advanced way.
 </p>
 
 <br>
-<strong>- The length of the encrypted values are a bit long</strong>
+<strong>- The encryption isn't very strong and can be bruteforced</strong>
+<br>
+<strong>- The key has to be between 3 and 1000000</strong>
 <br><br>
 
 -----
