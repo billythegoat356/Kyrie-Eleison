@@ -11,7 +11,7 @@
 <br><br>
 <p align="center">
 <strong>
-The best and unique way to encrypt some data or a file safely,
+The funniest and unique way to encrypt some data or a file safely,
 <br>
 Kyrie Eleison provides you multiples functions that allows you to encrypt anything you want
 <br>
